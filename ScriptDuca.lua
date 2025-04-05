@@ -38,11 +38,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
-local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
@@ -64,7 +59,12 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
   end
   })
-  
+
+    AddButton(Tab1o, {
+       Name = "Đang Cập Nhật Thêm",
+       Callback = function()
+       end
+       })
 ------------- Tab 2
 
 
