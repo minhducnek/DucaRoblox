@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Youtube : Duca Roblox"
          },
        Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "Key System",
         Description = "",
         KeyLink = "",
@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script ( No Key )"})
      local Tab2o = MakeTab({Name = "Script ( Key )"})
-     local Tab3o = MakeTab({Name = "Script Thông Báo ( Troll )"})
+     local Tab3o = MakeTab({Name = "Script ( Troll )"})
      local Tab4o = MakeTab({Name = "Thứ Khác"})
      
 ------- Tab 1
@@ -57,11 +57,11 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
      Name = "Xero Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
-  end
-  })
+    end
+    })
 
     AddButton(Tab1o, {
-       Name = "Đang Cập Nhật Thêm",
+       Name = "          Đang Cập Nhật Thêm",
        Callback = function()
        end
        })
