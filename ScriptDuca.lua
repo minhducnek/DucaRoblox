@@ -22,7 +22,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      
 ------- Tab 1
     AddButton(Tab1o, {
-     Name = "Nhớ Like Cho Duca Nhá:)))"
+     Name = "Nhớ Like Cho Duca Nhá:)))",
+     Callback = function()                       
      end
     })
     
@@ -59,7 +60,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
 ------------- Tab 2
 
     AddButton(Tab2o, {
-     Name = "Đang Còn Cập Nhật"
+     Name = "Đang Còn Cập Nhật",
+     Callback = function()
      end
     })
 
@@ -68,7 +70,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
 ------------ Tab 3
 
     AddButton(Tab3o, {
-     Name = "Đang Còn Cập Nhật"
+     Name = "Đang Còn Cập Nhật",
+     Callback = function()
      end
     })
 
@@ -82,6 +85,7 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
   })
   
   AddButton(Tab4o, {
-     Name = "Đang Còn Cập Nhật Thêm"
+     Name = "Đang Còn Cập Nhật Thêm",
+     Callback = function()
      end
     })
