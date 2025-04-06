@@ -77,6 +77,20 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/onepicesenpai/onepice
        })
 
 AddButton(Tab1o, {
+       Name = "Doraemon Hub x Min Gaming",
+       Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinME"))()
+       end
+       })
+
+AddButton(Tab1o, {
+       Name = "Doraemon Hub x Rubu",
+       Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinME"))()
+       end
+       })
+
+AddButton(Tab1o, {
        Name = "                 Đang Cập Nhật Thêm",
        Callback = function()
        end
