@@ -84,7 +84,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
        })
 
 AddButton(Tab1o, {
-       Name = "Doraemon Hub x Rubu",
+       Name = "Doraemon Hub x Rubu (V4)",
        Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinME"))()
        end
