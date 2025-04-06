@@ -32,7 +32,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script ( No Key )"})
      local Tab2o = MakeTab({Name = "Script ( Key )"})
      local Tab3o = MakeTab({Name = "Script ( Troll )"})
-     local Tab4o = MakeTab({Name = "Thứ Khác"})
+     local Tab4o = MakeTab({Name = "Script ( Hop )"})
+     local Tab5o = MakeTab({Name = "Thứ Khác"})
      
 ------- Tab 1
 
@@ -152,6 +153,14 @@ game.Players.LocalPlayer:Kick("Bạn Đã Bị Khoá Nick")
 
 
 ----------- Tab 4
+AddButton(Tab4o, {
+       Name = "                 Chức năng tìm boss",
+       Callback = function()
+       end
+       })
+
+-----------Tab 5
+
 AddButton(Tab4o, {
        Name = "                 Chức năng tiện lợi",
        Callback = function()
