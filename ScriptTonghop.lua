@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Youtube : Duca Roblox"
          },
        Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "Key System",
         Description = "",
         KeyLink = "",
@@ -38,7 +38,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   })
 
@@ -60,8 +60,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
     end
     })
 
-    AddButton(Tab1o, {
-       Name = "          Đang Cập Nhật Thêm",
+    AddText(Tab1o, {
+       Name = "                 Đang Cập Nhật Thêm",
        Callback = function()
        end
        })
