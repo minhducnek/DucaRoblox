@@ -126,6 +126,32 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
   })
 
 AddButton(Tab4o, {
+       Name = "                 Chức năng Troll",
+       Callback = function()
+       end
+       })
+
+AddButton(Tab4o, {
+       Name = "                 Troll Thông Báo",
+       Callback = function()
+       end
+       })
+
+AddButton(Tab4o, {
+     Name = "Fake Ban",
+    Callback = function() 
+game.Players.LocalPlayer:Kick("Bạn Đã Bị Ban Vĩnh Viễn")
+  end
+  })
+
+AddButton(Tab4o, {
+     Name = "Fake Mất Nick",
+    Callback = function() 
+game.Players.LocalPlayer:Kick("Bạn Đã Bị Khoá Nick")
+  end
+  })
+
+AddButton(Tab4o, {
        Name = "                 Đang Cập Nhật Thêm",
        Callback = function()
        end
