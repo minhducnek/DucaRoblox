@@ -20,7 +20,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     }
   })
        MinimizeButton({
-       Image = "https://www.roblox.com/asset/?id=83190276951914",
+       Image = "https://www.roblox.com/game-pass/1143013838",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -35,6 +35,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab4o = MakeTab({Name = "Thứ Khác"})
      
 ------- Tab 1
+AddButton(Tab1o, {
+       Name = "                 Đang Cập Nhật Thêm",
+       Callback = function()
+       end
+       })
+
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
@@ -59,21 +65,29 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
     end
     })
-
-    AddText(Tab1o, {
+------------- Tab 2
+  AddButton(Tab2o, {
        Name = "                 Đang Cập Nhật Thêm",
        Callback = function()
        end
        })
-------------- Tab 2
-
 
 
 ------------ Tab 3
-
+   AddButton(Tab3o, {
+       Name = "                 Đang Cập Nhật Thêm",
+       Callback = function()
+       end
+       })
 
 
 ----------- Tab 4
+AddButton(Tab4o, {
+       Name = "                 Đang Cập Nhật Thêm",
+       Callback = function()
+       end
+       })
+
     AddButton(Tab4o, {
      Name = "Bay",
     Callback = function() 
