@@ -38,7 +38,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- Tab 1
 
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "Redz Hub ( Dùng Được Tùy Vào Máy )",
     Callback = function()
 local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -112,6 +112,13 @@ AddButton(Tab2o, {
 
 
   AddButton(Tab2o, {
+       Name = "Cokka Hub",
+       Callback = function()
+       loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+       end
+       })
+
+AddButton(Tab2o, {
        Name = "                 Đang Cập Nhật Thêm",
        Callback = function()
        end
@@ -154,11 +161,16 @@ game.Players.LocalPlayer:Kick("Bạn Đã Bị Khoá Nick")
 
 ----------- Tab 4
 AddButton(Tab4o, {
-       Name = "                 Chức năng tìm boss",
+       Name = "                 Chức năng tìm Boss",
        Callback = function()
        end
        })
 
+AddButton(Tab4o, {
+       Name = "                 Chức năng tìm Legendary sword",
+       Callback = function()
+       end
+       })
 -----------Tab 5
 
 AddButton(Tab5o, {
