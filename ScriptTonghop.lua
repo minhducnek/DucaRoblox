@@ -167,8 +167,36 @@ AddButton(Tab4o, {
        })
 
 AddButton(Tab4o, {
+       Name = "Min Gaming",
+       Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopBoss"))()
+       end
+       })
+
+AddButton(Tab4o, {
+       Name = "Zis Roblox",
+       Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))()
+       end
+       })
+
+AddButton(Tab4o, {
        Name = "                 Chức năng tìm Legendary sword",
        Callback = function()
+       end
+       })
+
+AddButton(Tab4o, {
+       Name = "Min Gaming",
+       Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
+       end
+       })
+
+AddButton(Tab4o, {
+       Name = "Zis Roblox",
+       Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRobloxHop"))()
        end
        })
 -----------Tab 5
