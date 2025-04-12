@@ -104,6 +104,13 @@ AddButton(Tab1o, {
        })
 
 AddButton(Tab1o, {
+       Name = "Duca Roblox Bản Prenium",
+       Callback = function()
+       require(game.ReplicatedStorage:WaitForChild("Notification")).new( " <Color=Green>Bình tĩnh :)))<Color=/> " ):Display()
+       end
+       })
+
+AddButton(Tab1o, {
        Name = "                 Đang Cập Nhật Thêm",
        Callback = function()
        end
@@ -132,12 +139,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitin
        end
        })
 
-AddButton(Tab1o, {
-       Name = "Duca Roblox Bản Prenium",
-       Callback = function()
-       require(game.ReplicatedStorage:WaitForChild("Notification")).new( " <Color=Green>Đưa Money :)))<Color=/> " ):Display()
-       end
-       })
 
 AddButton(Tab2o, {
        Name = "                 Đang Cập Nhật Thêm",
