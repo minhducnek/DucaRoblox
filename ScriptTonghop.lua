@@ -45,7 +45,7 @@ local Settings = {
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
   })
 
@@ -97,6 +97,13 @@ AddButton(Tab1o, {
        })
 
 AddButton(Tab1o, {
+       Name = "Duca Roblox Bản Free",
+       Callback = function()
+     
+       end
+       })
+
+AddButton(Tab1o, {
        Name = "                 Đang Cập Nhật Thêm",
        Callback = function()
        end
@@ -115,6 +122,12 @@ AddButton(Tab2o, {
        Name = "Cokka Hub",
        Callback = function()
        loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+       end
+       })
+
+AddButton(Tab1o, {
+       Name = "Duca Roblox Bản Prenium",
+       Callback = function()
        end
        })
 
