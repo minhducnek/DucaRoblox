@@ -120,7 +120,8 @@ AddButton(Tab2o, {
 AddButton(Tab2o, {
        Name = "Banana Hub",
        Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+       repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
        end
        })
 
