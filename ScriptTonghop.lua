@@ -99,7 +99,7 @@ AddButton(Tab1o, {
 AddButton(Tab1o, {
        Name = "Duca Roblox Bản Free",
        Callback = function()
-     
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/minhducnek/DucaRoblox/refs/heads/main/BloxFruitFree.lua"))()
        end
        })
 
@@ -117,6 +117,12 @@ AddButton(Tab2o, {
        end
        })
 
+AddButton(Tab2o, {
+       Name = "Banana Hub",
+       Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+       end
+       })
 
   AddButton(Tab2o, {
        Name = "Cokka Hub",
@@ -128,6 +134,7 @@ AddButton(Tab2o, {
 AddButton(Tab1o, {
        Name = "Duca Roblox Bản Prenium",
        Callback = function()
+       require(game.ReplicatedStorage:WaitForChild("Notification")).new( " <Color=Green>Đưa Money :)))<Color=/> " ):Display()
        end
        })
 
