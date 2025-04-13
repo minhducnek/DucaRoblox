@@ -99,14 +99,7 @@ AddButton(Tab1o, {
 AddButton(Tab1o, {
        Name = "Duca Roblox Bản Free",
        Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/minhducnek/DucaRoblox/refs/heads/main/BloxFruitFree.lua"))()
-       end
-       })
-
-AddButton(Tab1o, {
-       Name = "Duca Roblox Bản Prenium",
-       Callback = function()
-       require(game.ReplicatedStorage:WaitForChild("Notification")).new( " <Color=Green>Bình tĩnh :)))<Color=/> " ):Display()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/minhducnek/DucaRoblox/refs/heads/main/BloxFruit.lua"))()
        end
        })
 
